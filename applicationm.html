@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/applicationm.css">
+    <title> טופס הרשמה</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo2" src="./img/לוגו כיתוב.webp"> 
+            <a  class="a" href="./index.html ">דף הבית</a>
+            <a class="a" href="./menu.html">תפריט</a>
+            <a class="a" href="./branches.html">סניפים</a>
+            <a class="a" href="./applicationm.html">הרשמה</a>
+        </nav> 
+    </header>
+    <form action="./send_from.html" method="post" target="_self">
+        <div id="divdivoni">
+            <label for="name">שם פרטי:</label><br/>
+            <input name="fname" id="fname" type="text" placeholder=" הכנס שם מלא"/><br/>
+            <label for="name">הכנס כתובת :</label><br/>
+            <input name="fname" id="fname" type="text" placeholder="הכנס כתובת" /><br>
+            <label for="name">עיר:</label>
+            <select>
+                <option value="1">ירושלים</option>
+                <option value="2">בית שמש</option>
+                <option value="3">אשדוד</option>
+                <option value="4">חיפה</option>
+                <option value="5">מודיעין</option>
+                <option value="6">אחר</option>
+             </select><br>
+            <label for="pass"> מספר טלפון:*</label><br/>
+            <input name="pass" id="pass" type="number" required placeholder="הכנס מספר טלפון"/><br/>
+            <label for="pass"> סיסמא:*</label><br/>
+            <input name="pass" id="pass" type="password"  placeholder="סיסמא"/><br/>
+            <label for="date"> הזמנה לתאריך:</label><br/>
+            <input name="date" id="date" type="date" /><br/>
+             <input id="tfooza"  required placeholder type="checkbox" />
+             <label>:להרשמה לרשימת תפוצה</label><br/>
+                <label> מה ברצונך להזמין? </label><br/>
+                <textarea rows="12" cols="30" ></textarea><br/>
+                <input type="reset" value="מחק נתונים">
+                <input type="submit" value="שלח נתונים">
+        
+        </div>
+    </form>
+    
+    </select>
+ 
+</body>
+</html>

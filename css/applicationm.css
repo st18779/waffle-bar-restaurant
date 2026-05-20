@@ -1,0 +1,68 @@
+
+ html{
+    background-image:url("../img/מקום.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+header{
+    position: sticky;
+    top: 0px;
+}
+nav {
+    color: rgb(10, 10, 10);
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+   font-weight: bold;
+} 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.a{
+    color: rgb(9, 10, 10);
+    flex: end;
+    margin-top: 1.32rem;
+}
+.logo2{
+    width:7.125rem;
+    height: 2.875rem;
+}
+#divdivoni{
+text-align: center;
+color: rgb(12, 11, 11);
+font-weight: bold;
+}
+input{
+    text-align: center;
+}
+@media(max-width:768px){
+    nav{
+        flex-wrap:wrap;
+
+    }
+    .logo2{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    nav{
+        flex-wrap: wrap;
+        
+    }
+    .logo2{
+        width: 100%;
+    }
+    .a{
+        width: 100%;
+    }
+    .div1{
+        width: 50%; 
+    }
+}

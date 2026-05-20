@@ -1,0 +1,117 @@
+
+html{
+    background-color: rgb(17, 16, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav {
+    color: rgb(10, 10, 10);
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+   font-weight: bold;
+}  
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.a{
+    color: rgb(9, 10, 10);
+    flex: end;
+    margin-top: 1.32rem;
+}
+.logo2{
+    width:7.125rem;
+    height: 2.875rem;
+}
+#divimg{
+
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.125rem;
+    border: 0%;
+}
+.div-div{
+
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.title{
+    color: white;
+    font-size: 3.125rem;
+    text-align: center;
+    width: 100%;
+}
+.div1{
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+    width: 20rem;
+    /* height: 35vh; */
+    border-radius: 10%;
+    box-shadow: 0.0625rem 0.0625rem 1.0625rem 0.0625rem white;
+  
+}
+.pic1{
+    width: 20rem;
+    height: 14rem;
+    display: inline;
+    float: right;
+    margin: 0%;
+    border-top-right-radius:10% ;
+    border-top-left-radius:10% ;
+    margin-bottom: 0.4625rem;
+}
+.span1{
+    color: rgb(7, 6, 6);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.ii{
+    color: rgb(12, 11, 11);
+    display: inline;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+}
+@media(max-width:768px){
+    nav{
+        flex-wrap:wrap;
+
+    }
+    .logo2{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    nav{
+        flex-wrap: wrap;
+        
+    }
+    .logo2{
+        width: 100%;
+    }
+    .a{
+        width: 100%;
+    }
+    .div1{
+        width: 80%; 
+    }
+    .pic1{
+        width:100%;
+    }
+}

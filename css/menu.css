@@ -1,0 +1,125 @@
+html {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    z-index: 110;
+}
+
+ nav {
+    color: rgb(10, 10, 10);
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+   font-weight: bold;
+} 
+#hover1 {
+    position: relative;
+    margin-top: 1.32rem;
+}
+
+#hover2 {
+    display: none;
+    position: absolute;
+    color: rgb(14, 12, 12);
+    background-color: rgba(187, 187, 183, 0.945);
+    width: 9.375rem;
+    font-size: 1.25rem;
+}
+#hover1:hover #hover2 {
+    display: block;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.a{
+    color: rgb(9, 10, 10);
+    flex: end;
+    margin-top: 1.32rem;
+}
+.logo2{
+    width:7.125rem;
+    height: 2.875rem;
+}
+#divimg {
+    flex-wrap: wrap;
+    gap: 3rem;
+    border: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.foodtitle {
+    color: white;
+    font-size: 3.125rem;
+    text-align: center;
+    width: 100%;
+}
+
+.div1 {
+    float: right;
+    width: 18.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 1.5625rem;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.pic1 {
+
+    width: 100%;
+    height: 15rem;
+    display: inline;
+    float: right;
+    margin: 0%;
+    transition: transform 0.3s ease;
+    gap: 4rem;
+
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.pic1:hover {
+    transform: scale(1.05);
+}
+@media(max-width:768px){
+    nav{
+        flex-wrap:wrap;
+
+    }
+    .logo2{
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    nav{
+        flex-wrap: wrap;
+        
+    }
+    .logo2{
+        width: 100%;
+    }
+    .a{
+        width: 100%;
+    }
+    .div1{
+        width: 50%; 
+    }
+}

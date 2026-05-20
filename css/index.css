@@ -1,0 +1,174 @@
+
+html{
+    animation: picture 10s linear infinite alternate;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+@keyframes picture{
+ 0%{
+    background-image: url("../img/ארוחת\ בוקר.jpg");
+ } 
+ 20%{
+    background-image: url("../img/ארוחת\ בוקר2.jpg");
+ } 
+ 40%{
+    background-image: url("../img/טורטיות.png");
+ } 
+ 60%{
+    background-image: url("../img/פיש\ אנד\ ציפס.jpg");
+ }  
+ 80%{
+    background-image: url("../img/שתיה.jpg");
+ } 
+ 100%{
+    background-image: url("../img/אוכל.jpg");
+ }  
+}
+nav {
+    color: rgb(10, 10, 10);
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+   font-weight: bold;
+}  
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.a{
+    color: rgb(9, 10, 10);
+    flex: end;
+    margin-top: 1.32rem;
+}
+.logo2{
+    width:7.125rem;
+    height: 2.875rem;
+   
+}
+
+.picdiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.pic{
+    width: 45%;
+    display: inline;
+    object-fit: cover; 
+}
+#about {
+    font-size: 2.5625rem;
+}
+#section {
+    color: rgba(3,24,53,255);
+    text-align: center;
+    font: size 3.25rem;
+    background-color: rgb(255, 255, 255,0.3);
+    font-weight: bold;
+}
+.chat{
+    width: 12.5rem;
+    height: 2.5rem;
+    border: 0.125rem black solid;
+    border-radius: 6.25rem;
+    cursor: pointer;
+    position: sticky;
+    
+    animation:animationchat 7s linear infinite;
+   
+}
+#font-chat{
+    font-size: 1.875rem;
+}
+@keyframes animationchat{
+    0% {
+      
+        background-color: rgb(17, 10, 2);
+        color: rgb(244, 248, 252);
+    }
+    50% {
+       color: rgb(17, 10, 2); 
+       background-color: rgb(243, 246, 248);
+        
+    }
+    100% {
+        background-color: rgb(17, 10, 2);
+        color: rgb(220, 225, 230);
+    }
+}
+.icons {
+   display: inline;
+   margin-right: 9.375rem;
+ }                      
+.icons i{
+    font-size: 24px;
+    color: black;
+ }
+.pic-logo{
+    display: inline;
+    width: 20rem;
+    height:20rem;
+    margin-right:6.25rem;
+    margin-top: 0.625rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    justify-content: center;
+ }
+.more-details{
+    color: rgb(1, 9, 15);
+    background-color: rgb(223, 227, 230);
+    text-align: center;
+    padding: 0.5%;
+    padding-left: 0;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15.625rem;
+   
+ }
+ .more-details h2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+ }
+ @media(max-width:768px){
+    nav{
+        flex-wrap:wrap;
+
+    }
+    .logo2{
+        width: 100%;
+    }
+    .pic-logo{
+        width: 10rem;
+        height:10rem;
+    }
+    #section{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:480px){
+    nav{
+        flex-wrap: wrap;
+        gap: 2%;
+        
+    }
+    .logo2{
+        width: 100%;
+    }
+    .a{
+        width: 100%;
+    }
+    .div1{
+        width: 50%; 
+    }
+}
+
