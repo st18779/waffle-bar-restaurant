@@ -3,7 +3,7 @@
 A modern, clean, and fully responsive restaurant website for Waffle Bar, built from scratch using HTML5 and CSS3.
 
 ## 🚀 Live Demo
-*Alternatively, you can visit the live website here:* 🔗 **[Add your GitHub Pages link here later]**
+https://st18779.github.io/waffle-bar-restaurant/
 
 ---
 
